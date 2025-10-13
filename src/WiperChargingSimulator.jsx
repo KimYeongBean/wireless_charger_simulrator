@@ -537,7 +537,7 @@ const WiperChargingSimulator = () => {
   const coveredDevices = stats.deviceStatuses.filter(status => status.reachable).length;
 
   return (
-    <div className="w-full h-screen bg-slate-900 flex flex-col items-center justify-center p-8">
+    <div className="min-h-screen w-full bg-slate-900 flex flex-col items-center justify-start py-8 px-4 sm:px-8">
       <div className="bg-slate-800 rounded-xl shadow-2xl p-6 max-w-4xl w-full">
         <div className="flex items-center justify-between mb-6">
           <div>
