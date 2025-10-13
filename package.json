@@ -27,4 +27,5 @@
     "postcss": "^8.4.32",
     "autoprefixer": "^10.4.16"
   }
+  "homepage": "https://kimyeongbean.github.io/wireless_charger_simulrator/"
 }
