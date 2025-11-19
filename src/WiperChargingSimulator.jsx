@@ -36,7 +36,8 @@ const calculateMaxReach = base =>
 const RAW_WIPER_BASES = [
   { x: PAD_WIDTH * 0.18, y: PAD_HEIGHT - BOTTOM_MARGIN, angle: 270, color: "#3b82f6" },
   { x: PAD_WIDTH * 0.82, y: PAD_HEIGHT - BOTTOM_MARGIN, angle: 270, color: "#ef4444" },
-  { x: PAD_WIDTH * 0.5, y: TOP_MARGIN, angle: 90, color: "#10b981" },
+  { x: PAD_WIDTH * 0.18, y: TOP_MARGIN, angle: 90, color: "#10b981" },
+  { x: PAD_WIDTH * 0.82, y: TOP_MARGIN, angle: 90, color: "yellow" },
 ];
 
 const WIPER_BASES = RAW_WIPER_BASES.map(base => ({
@@ -51,6 +52,7 @@ const DEFAULT_DEVICES = [
   { x: PAD_WIDTH * 0.35, y: PAD_HEIGHT * 0.55 },
   { x: PAD_WIDTH * 0.65, y: PAD_HEIGHT * 0.5 },
   { x: PAD_WIDTH * 0.45, y: PAD_HEIGHT * 0.35 },
+  { x: PAD_WIDTH * 0.75, y: PAD_HEIGHT * 0.45 },
 ];
 
 const endpoint = (base, length, angle) => ({
